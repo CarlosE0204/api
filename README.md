@@ -40,7 +40,8 @@ Dentro de Models en el peliculas.php se creo de la sigueinte manera:
 
 ##### Método insertar usuario
 ![image](https://github.com/user-attachments/assets/bcb2a94d-ec44-4db0-ad53-de37a30ff246)
-##### En la función se realiza una solicitud HTTP la cual se hace mendiante Request.
+##### En la función se realiza una solicitud HTTP la cual permite hacer modificaciones sobre el usuario, esta modificación la hace ubicando el ID y con ello se modifican los campos del usuario con el que se requiera
+
 
 ##### Método hacer cambios en el usuario
 ![image](https://github.com/user-attachments/assets/0260ae9f-73f6-43e5-a56c-12e9c15d48a7)
@@ -106,7 +107,11 @@ Dentro de Models en el peliculas.php se creo de la sigueinte manera:
 
 ![image](https://github.com/user-attachments/assets/90855c29-71a1-4dbe-8413-4f64f3358c9d)
 
-##### Se ingresan las rutas del controlador y el nombre de la función, así como también el atributo que requiere que en este caso es sobre el ID que tiene la pelicula sobre el cual se hara el servicio que corresponde.
+##### Se ingresan las rutas del controlador y el nombre de la función, así como también el atributo que requiere que en este caso es sobre el ID que tiene la pelicula sobre el cual se realizara el servicio que corresponde.
+
+#### En el archivo de .env en el cual se coloca  el nombre de la base de datos, el usuario y contraseña que tiene. 
+![image](https://github.com/user-attachments/assets/724bae55-1efe-46ad-9122-28f171aab650)
+
 
 
 ----------------------------------------------------------------------------------------------
