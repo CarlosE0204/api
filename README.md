@@ -40,16 +40,16 @@ Dentro de Models en el peliculas.php se creo de la sigueinte manera:
 
 ##### Método insertar usuario
 ![image](https://github.com/user-attachments/assets/bcb2a94d-ec44-4db0-ad53-de37a30ff246)
-##### En la función se realiza una solicitud HTTP la cual permite hacer modificaciones sobre el usuario, esta modificación la hace ubicando el ID y con ello se modifican los campos del usuario con el que se requiera
+##### Se hace un servicio el cual insertara  un nuevo usuario con los datos correspondientes para almacenarlos en la base de datos.
 
 
 ##### Método hacer cambios en el usuario
 ![image](https://github.com/user-attachments/assets/0260ae9f-73f6-43e5-a56c-12e9c15d48a7)
-##### La función se crea para hacer cambios sobre un usuario en específico por tanto se hace en base al ID.
+##### En la función se realiza una solicitud HTTP la cual permite hacer modificaciones sobre el usuario, esta modificación la hace ubicando el ID y con ello se modifican los campos del usuario con el que se requiera.
 
 ##### Método eliminar usuario
 ![image](https://github.com/user-attachments/assets/3f519080-85cd-481d-98a7-0c01fa75f5d7)
-##### Para hacer eliminación de usuarios se requiere de un ID para buscarlo en el json. 
+##### Para hacer eliminación de usuarios se requiere de un ID de usuario para buscarlo en el json y ejecutar la acción.
 
 #### Para las peliculas se crearon los siguientes métodos:
 ### Películas
