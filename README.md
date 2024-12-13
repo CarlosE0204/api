@@ -9,7 +9,7 @@
 #### Para la creación del proyecto en laravel los primeros pasos son la instalación de LARAVEL y demás componentes que se utilzaran en el proceso para crear la API
 #### Una vez abierto y detectado Laravel se crean carpetas las cuales serviran para ubicar los contenidos de Controladores, routes, modulos, etc. 
 
-### En el proyecto de nombre API si genera una carpeta app que contiene a Models, en este caso para el proyecto se crean los modelos de películas y usuario cada una de estas tiene ciertos atributos los cuales son:
+### -->  En el proyecto de nombre API si genera una carpeta app que contiene a Models, en este caso para el proyecto se crean los modelos de películas y usuario cada una de estas tiene ciertos atributos los cuales son:
 #### Usuario
 ##### * nombre
 ##### * correo
@@ -26,10 +26,10 @@ Dentro de Models en el usuario.php se creo de la sigueinte manera:
 ##### * genero de la pelicula
 Dentro de Models en el peliculas.php se creo de la sigueinte manera:
 ![image](https://github.com/user-attachments/assets/b83458b9-69ed-4f84-8580-20eca532511c)
-
+##  Controladores
 ### En el caso de los controladores para poder hacer consultas a la api se crean los metodos correspondientes.
 #### Para los usuarios se crearon los siguientes métodos:
-### Usuario
+### -> Usuario
 ##### Método de obtener usuario
 ![image](https://github.com/user-attachments/assets/c1360133-e0aa-41e4-94fa-8da910067006)
 ##### La función retorna a todos los usuarios que esten dentro, con una respuesta 200.
@@ -42,7 +42,6 @@ Dentro de Models en el peliculas.php se creo de la sigueinte manera:
 ![image](https://github.com/user-attachments/assets/bcb2a94d-ec44-4db0-ad53-de37a30ff246)
 ##### Se hace un servicio el cual insertara  un nuevo usuario con los datos correspondientes para almacenarlos en la base de datos.
 
-
 ##### Método hacer cambios en el usuario
 ![image](https://github.com/user-attachments/assets/0260ae9f-73f6-43e5-a56c-12e9c15d48a7)
 ##### En la función se realiza una solicitud HTTP la cual permite hacer modificaciones sobre el usuario, esta modificación la hace ubicando el ID y con ello se modifican los campos del usuario con el que se requiera.
@@ -52,7 +51,7 @@ Dentro de Models en el peliculas.php se creo de la sigueinte manera:
 ##### Para hacer eliminación de usuarios se requiere de un ID de usuario para buscarlo en el json y ejecutar la acción.
 
 #### Para las peliculas se crearon los siguientes métodos:
-### Películas
+###  -> Películas
 ##### Método obtener película
 ![image](https://github.com/user-attachments/assets/6b914dfb-c53b-4627-9a60-99f6503dad39)
 ##### La función servirá para obtener las peliculas almacenadas en el json. 
