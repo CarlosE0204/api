@@ -78,7 +78,7 @@ Dentro de Models en el peliculas.php se creo de la sigueinte manera:
 
 ##### Método paginación de películas
 ![image](https://github.com/user-attachments/assets/0e507d85-13b0-4fef-9665-f7580754e089)
-##### Se hace una obtención de peliculas para que puedan ser puestos en la paginación de la tabla, la cual esta hecha por medio de cantidad de películas por página y con ello se podrá variar la cantidad de paginas. 
+##### -> Se hace una obtención de peliculas para que puedan ser puestos en la paginación de la tabla, la cual esta hecha por medio de cantidad de películas por página y con ello se podrá variar la cantidad de paginas. 
 
 ### En la carpeta de routes dentro del archivo de api.php, se crearán los servicios los cuales se hacen por medio de las solicitudes HTTP las cuales son: 
 #### - GET
@@ -93,7 +93,7 @@ Dentro de Models en el peliculas.php se creo de la sigueinte manera:
 #### - DELETE
 ##### El método DELETE borra un recurso en específico.
 
-### Dentro de la carpeta de routes en el archivo api.php 
+### -> Dentro de la carpeta de routes en el archivo api.php 
 
 #### Se crearon los servicios para los usuarios y las películas que son los elementos con los que se trabajarán en el proyecto.
 
